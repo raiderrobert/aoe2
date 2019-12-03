@@ -1,0 +1,77 @@
+<html>
+<head>
+        {% set colors = {'earth': "#359e4d", 'water': "#3d7fb8", 'wind':"#f2f8ff",'fire': "#bf4f40"} %}
+    <link href="static/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/style-print.css" media="print" />
+
+        {% for color, code in colors.items() %}
+            <style type="text/css">
+                .card.type-{{color}} .title {background-color:{{code}};}
+                .card.type-{{color}} .subtitle {background-color:{{code}};}
+                .mana.type-{{color}} .mana-bead {background-color:{{code}};}
+            </style>
+        {% endfor %}
+    
+
+     
+</head>
+<body>
+    {% set ns = namespace(count=0) %}
+    {% for card in cards %}
+    {% for card_count in range(card['card_count'])%}
+        {% set ns.count = ns.count + 1 %}
+        <div class="card type-{{card['Mana Source']}}">
+            <div class="liner full-height">
+                <div class="title">{{card['Title']}}
+                </div>
+                <div class="subtitle">    
+                        {{card['Mana Source']}} {{card['Type']}} - {{card['Duration']}}                  
+                </div>
+                <div class="mana-container">
+                    {% for type, mana in card['mana'].items() %}
+                        {% if mana['base'] != None %}
+                        <span class="mana type-{{type}}">
+                            {% if mana['base'] == 0 %}
+                            <span class="mana-bead"><span class="icon-denied"></span></span>
+                            {% elif mana['base'] == None %}
+                            {% elif mana['base'] > 0 %}
+                                <span class="mana-bead">
+                                    {{mana['base']}}+{{ mana['addon'] }}
+                                
+                                </span>
+                            {% else %}
+                            <span class="mana-bead">{{mana['addon']}}</span>
+                            {% endif %}
+                        </span>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div id="art"></div>
+                {% if card['Health'] %} 
+                <div class="hp">
+                    <div> {{card['Health']|int}} HP</div> 
+                    <div>{% if card['Shield'] == 'Yes' %} shield {% endif %} </div>     
+                </div>
+                {% endif %} 
+                <p class="description">
+                        {% if card['Damage'] != '' %}Deal {{card['Damage']}} damage {{card['Targets']}}. <br> {% endif %}
+                        
+                             
+                    {{card['Additional Comments/Rules']}}<br> 
+                     
+                </p>
+                {% if card['Cascade'] %} 
+                    <div class="cascade">
+                        <span> Cascade  <i class="arrow"></i> {{card['Cascade']}}</span>    
+                    </div>
+                {% endif %}
+                <span class="start-card">{%if card['Starting Card'] == "Yes" %} START{% endif %}</span>   
+            </div>
+        </div>
+        {% if ns.count % 9 == 0 %}<div class="page-break"></div>{% endif %}
+       
+    {% endfor %}
+    {% endfor %}
+    </div>
+</body>
+</html>

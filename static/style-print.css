@@ -1,0 +1,16 @@
+/* GLOBAL STYLES
+-------------------------------------------------------------------------------- */
+/* Import everything that's done on the other style sheet */
+@import "style.css";
+ 
+    /* For Printing in Google Chrome */
+        * {
+            -webkit-print-color-adjust:exact;
+            -webkit-filter:opacity(1);
+        }
+    /* Page break on print */
+    
+        .page-break {page-break-after: always;}
+         
+    /* Hide the control bar at the top for printing*/  
+        .control-bar {display: none;}
