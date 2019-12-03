@@ -8,10 +8,11 @@ verify_ssl = true
 [packages]
 starlette = "*"
 uvicorn = "*"
-pandas = "*"
 aiofiles = "*"
 jinja2 = "*"
-numpy = "*"
+graphene = "*"
+pydantic = "*"
+graphene-pydantic = "*"
 
 [requires]
 python_version = "3.6"
