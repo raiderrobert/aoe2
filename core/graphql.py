@@ -13,19 +13,19 @@ class Civilization(PydanticObjectType):
 class Query(graphene.ObjectType):
     civilizations = graphene.List(
         Civilization,
-        ver=graphene.Argument(type=graphene.String, required=False),
+        version=graphene.Argument(type=graphene.String, required=False),
         name=graphene.Argument(type=graphene.String, required=False),
     )
 
     def resolve_civilizations(
         args,
         info,
-        ver: Union[str, None] = None,
+        version: Union[str, None] = None,
         name: Union[str, None] = None,
     ):
         sources = get_civs()
-        if ver:
-            sources = (x for x in sources if x.__getattribute__('ver') == ver)
+        if version:
+            sources = (x for x in sources if x.__getattribute__('ver') == version)
         if name:
             sources = (x for x in sources if x.__getattribute__('name') == name)
         return sources
