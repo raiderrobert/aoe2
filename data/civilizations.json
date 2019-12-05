@@ -401,7 +401,7 @@
   {
     "name": "Berbers",
     "version": "ak",
-    "speciality": "navy and cavalry",
+    "speciality": "Naval and cavalry",
     "uniqueUnit": [
       "Camel Archer"
     ],
@@ -459,7 +459,7 @@
   {
     "name": "Portuguese",
     "version": "ak",
-    "speciality": "navy and gunpowder units",
+    "speciality": "Naval and gunpowder units",
     "uniqueUnit": [
       "Organ Gun",
       "Caravel"
@@ -480,118 +480,169 @@
   },
   {
     "name": "Malians",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [
-      "",
-      ""
+    "version": "ak",
+    "speciality": "Infantry",
+    "uniqueUnit": [
+      "Gbeto"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "uniqueTech": [
+      "Tigui",
+      "Farimba"
+    ],
+    "teamBonus": "Universities research +80% faster.",
+    "bonus": [
+      "Buildings cost -15% wood (except Farms).",
+      "Barracks units have +1/+2/+3 pierce armor in the Feudal/Castle/Imperial Age.",
+      "Gold Mining is free."
+    ]
   },
   {
     "name": "Cumans",
-    "version": "d",
-    "speciality": "",
+    "version": "lk",
+    "speciality": "Cavalry",
     "uniqueUnit": [
       "Kipchak"
     ],
     "uniqueTech": [
-      "",
-      ""
+      "Steppe Husbandry",
+      "Cuman Mercenaries"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "teamBonus": "Palisade Walls have +50% hit points.",
+    "bonus": [
+      "Can build an additional Town Center in the Feudal Age[1].",
+      "Siege Workshop and Battering Ram available in the Feudal Age.",
+      "Cavalry moves 10% faster starting in the Feudal Age."
+    ]
   },
   {
     "name": "Khmer",
-    "version": "",
-    "speciality": "",
+    "version": "ror",
+    "speciality": "siege weapons and elephant units",
     "uniqueUnit": [
       "Ballista Elephant"
     ],
     "uniqueTech": [
-      "",
-      ""
+      "Tusk Swords",
+      "Double Crossbow"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "teamBonus": "Scorpions have +1 range.",
+    "bonus": [
+      "No buildings are required to construct certain buildings or advance in Age.",
+      "Battle Elephants move +15% faster.",
+      "Villagers can garrison in Houses."
+    ]
   },
   {
     "name": "Ethiopians",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [
-      "",
-      ""
+    "version": "ak",
+    "speciality": "Archers and siege weapons",
+    "uniqueUnit": [
+      "Shotel Warrior"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "uniqueTech": [
+      "Royal Heirs",
+      "Torsion Engines"
+    ],
+    "teamBonus": "Towers and Outposts have +3 Line of Sight.",
+    "bonus": [
+      "The Archer line fires 18% faster.",
+      "Receive +100 food and +100 gold whenever a new Age is reached.",
+      "The Pikeman upgrade is free."
+    ]
   },
   {
     "name": "Italians",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [
-      "",
-      ""
+    "version": "f",
+    "speciality": "Archers and Naval",
+    "uniqueUnit": [
+      "Genoese Crossbowman"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "uniqueTech": [
+      "Pavise",
+      "Silk Road"
+    ],
+    "teamBonus": "Condottieri are available at the Barracks.",
+    "bonus": [
+      "Dock technologies are 50% cheaper.",
+      "Fishing Ships are 15% cheaper.",
+      "Gunpowder units are 20% cheaper.",
+      "Advancing to the next Age is 15% cheaper."
+    ]
   },
   {
     "name": "Indians",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [
-      "",
-      ""
+    "version": "f",
+    "speciality": "Camels and gunpowder units",
+    "uniqueUnit": [
+      "Elephant Archer",
+      "Imperial Camel"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "uniqueTech": [
+      "Sultans",
+      "Shatagni"
+    ],
+    "teamBonus": "Camels have +6 attack against buildings.",
+    "bonus": [
+      "Fishermen work 15% faster and carry +15 food.",
+      "Villagers are 10%/15%/20%/25% cheaper in the Dark/Feudal/Castle/Imperial Age.",
+      "Camels have +1 pierce armor."
+    ]
   },
   {
     "name": "Burmese",
-    "version": "",
-    "speciality": "",
+    "version": "ror",
+    "speciality": "Monks and elephants",
     "uniqueUnit": [
       "Arambai"
     ],
     "uniqueTech": [
-      "",
-      ""
+      "Howdah",
+      "Manipur Cavalry"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "teamBonus": "Relics are visible on the map from the game start.",
+    "bonus": [
+      "Lumber Camp technologies are free.",
+      "Infantry has +1/+2/+3 attack in the Feudal/Castle/Imperial Age.",
+      "Monastery technologies are 50% cheaper."
+    ]
   },
   {
     "name": "Bulgarians",
-    "version": "d",
+    "version": "lk",
     "speciality": "",
     "uniqueUnit": [
       "Konnik"
     ],
-    "uniqueTech": [
-      "",
-      ""
+    "uniqueBuilding": [
+      "Krepost"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "uniqueTech": [
+      "Stirrups",
+      "Bagains"
+    ],
+    "teamBonus": "Blacksmiths work 50% faster.",
+    "bonus": [
+      "Militia line units are upgraded for free.",
+      "Town Centers cost -50% stone.",
+      "Can build Krepost."
+    ]
   },
   {
     "name": "Magyars",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [
-      "",
-      ""
+    "version": "f",
+    "speciality": "Cavalry",
+    "uniqueUnit": [
+      "Magyar Huszar"
     ],
-    "teamBonus": "",
-    "bonus": []
+    "uniqueTech": [
+      "Mercenaries",
+      "Recurve Bow"
+    ],
+    "teamBonus": "Foot archers have +2 Line of Sight.",
+    "bonus": [
+      "Forging, Iron Casting, and Blast Furnace are free.",
+      "Scout Cavalry line is 15% cheaper.",
+      "Villagers kill wild animals in one strike."
+    ]
   }
 ]
