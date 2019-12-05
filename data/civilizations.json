@@ -4,10 +4,10 @@
     "version": "c",
     "speciality": "Infantry and Monk",
     "uniqueUnit": "Jaguar Warrior",
-    "uniqueTech": "Garland Wars",
+    "uniqueTech": ["Garland Wars"],
     "teamBonus": "Relics generate +33% gold",
     "bonus": [
-      "villagers carry +5",
+      "Villagers carry +5",
       "Military units created 15% faster",
       "+5 Monk hit points for each Monastery technology",
       "Loom free"
@@ -18,12 +18,11 @@
     "version": "k",
     "speciality": "Foot archer",
     "uniqueUnit": "Longbowman",
-    "uniqueTech": "Yeomen",
+    "uniqueTech": ["Yeomen"],
     "teamBonus": "Archery Ranges work 20% faster",
     "bonus": [
       "Town Centers cost -50% wood upon reaching the Castle Age",
-      "Foot archers (excluding Skirmishers) have +1 range in Castle Age, ",
-      "+1 in Imperial Age (for +2 total)",
+      "Foot archers (excluding Skirmishers) have +1 range in Castle Age, +1 in Imperial Age (for +2 total)",
       "Shepherds work 25% faster"
     ]
   },
@@ -32,11 +31,10 @@
     "version": "k",
     "speciality": "Defensive",
     "uniqueUnit": "Cataphract",
-    "uniqueTech": "Logistica",
+    "uniqueTech": ["Logistica"],
     "teamBonus": "Monks +50% heal speed",
     "bonus": [
-      "Buildings (except gates) have +10% HP in Dark Age, +20% HP in Feudal Age,",
-      "+30% in Castle Age, +40% in Imperial Age.",
+      "Buildings (except gates) have +10% HP in Dark Age, +20% HP in Feudal Age +30% in Castle Age, +40% in Imperial Age.",
       "Spearman, skirmisher and camel lines cost 25% less",
       "Fire Ships attack 20% faster.",
       "Imperial Age costs -33%.",
@@ -48,7 +46,7 @@
     "version": "k",
     "speciality": "Infantry",
     "uniqueUnit": "Woad Raider",
-    "uniqueTech": "Furor Celtica",
+    "uniqueTech": ["Furor Celtica"],
     "teamBonus": "Siege Workshops work 20% faster.",
     "bonus": [
       "Infantry move 15% faster.",
@@ -62,7 +60,7 @@
     "version": "k",
     "speciality": "Archer",
     "uniqueUnit": "Chu Ko Nu",
-    "uniqueTech": "Rocketry",
+    "uniqueTech": ["Rocketry"],
     "teamBonus": "Farms provide +45 food.",
     "bonus": [
       "Start game with 3 extra villagers but -50 wood and -200 food.",
@@ -77,7 +75,7 @@
     "version": "k",
     "speciality": "Cavalry",
     "uniqueUnit": "Throwing Axeman",
-    "uniqueTech": "Bearded Axe",
+    "uniqueTech": ["Bearded Axe"],
     "teamBonus": "Knights have +2 line of sight",
     "bonus": [
       "Castles are 25% cheaper.",
@@ -90,7 +88,10 @@
     "version": "k",
     "speciality": "Infantry",
     "uniqueUnit": "Huskarl",
-    "uniqueTech": "Anarchy(Castle), Perfusion(Imperial)",
+    "uniqueTech": [
+      "Anarchy",
+      "Perfusion"
+    ],
     "teamBonus": "Barracks operate 20% faster",
     "bonus": [
       "Infantry cost 35% less (starting in Feudal Age)",
@@ -105,7 +106,7 @@
     "version": "c",
     "speciality": "Cavalry",
     "uniqueUnit": "Tarkan",
-    "uniqueTech": "Atheism",
+    "uniqueTech": ["Atheism"],
     "teamBonus": "Stables are 20% faster.",
     "bonus": [
       "Houses are not required to support population, start game with -100 Wood.",
@@ -118,7 +119,7 @@
     "version": "k",
     "speciality": "Infantry",
     "uniqueUnit": "Samurai",
-    "uniqueTech": "Kataparuto",
+    "uniqueTech": ["Kataparuto"],
     "teamBonus": "Galleys have +50% line of sight",
     "bonus": [
       "Fishing Ships have 2x HP and +2 pierce armor.",
@@ -133,7 +134,7 @@
     "version": "c",
     "speciality": "Tower and naval",
     "uniqueUnit": "War Wagon, Turtle Ship",
-    "uniqueTech": "Shinkichon",
+    "uniqueTech": ["Shinkichon"],
     "teamBonus": "Mangonel line has +1 range",
     "bonus": [
       "Villagers have +3 line of sight.",
@@ -147,7 +148,7 @@
     "version": "c",
     "speciality": "Archer",
     "uniqueUnit": "Plumed Archer",
-    "uniqueTech": "El Dorado",
+    "uniqueTech": ["El Dorado"],
     "teamBonus": "Walls are 50% cheaper",
     "bonus": [
       "Start game with 1 extra villager, -50 food.",
@@ -160,7 +161,7 @@
     "version": "k",
     "speciality": "Cavalry Archer",
     "uniqueUnit": "Mangudai",
-    "uniqueTech": "Drill",
+    "uniqueTech": ["Drill"],
     "teamBonus": "Scout line has +2 LOS",
     "bonus": [
       "Cavalry Archers reload 20% faster.",
@@ -173,13 +174,12 @@
     "version": "k",
     "speciality": "Cavalry",
     "uniqueUnit": "War Elephant",
-    "uniqueTech": "Mahouts",
+    "uniqueTech": ["Mahouts"],
     "teamBonus": "Knights have +2 attack versus Archers",
     "bonus": [
       "Start game with +50 wood and food.",
       "Town Center and Docks have 2x HP.",
-      "Town Centers and Docks operate +10% faster in Feudal Age, ",
-      " +15% in Castle Age, +20% in Imperial Age."
+      "Town Centers and Docks operate +10% faster in Feudal Age, +15% in Castle Age, +20% in Imperial Age."
     ]
   },
   {
@@ -187,7 +187,7 @@
     "version": "k",
     "speciality": "Camel and naval",
     "uniqueUnit": "Mameluke",
-    "uniqueTech": "Zealotry",
+    "uniqueTech": ["Zealotry"],
     "teamBonus": "Foot archers have +2 attack bonus against buildings",
     "bonus": [
       "Market trade cost is only 5%",
@@ -201,7 +201,7 @@
     "version": "c",
     "speciality": "Gunpowder and Monk",
     "uniqueUnit": "Conquistador, Missionary",
-    "uniqueTech": "Supremacy",
+    "uniqueTech": ["Supremacy"],
     "teamBonus": "Trade units generate +33% Gold",
     "bonus": [
       "Villagers construct buildings 30% faster.",
@@ -215,7 +215,7 @@
     "version": "k",
     "speciality": "Infantry",
     "uniqueUnit": "Teutonic Knight",
-    "uniqueTech": "Crenellations",
+    "uniqueTech": ["Crenellations"],
     "teamBonus": "Units are more resistant to conversion",
     "bonus": [
       "Monks have 2x healing range.",
@@ -230,7 +230,7 @@
     "version": "k",
     "speciality": "Gunpowder",
     "uniqueUnit": "Janissary",
-    "uniqueTech": "Artillery",
+    "uniqueTech": ["Artillery"],
     "teamBonus": "Gunpowder units are created 20% faster",
     "bonus": [
       "Gunpowder Units have +25% HP",
@@ -245,7 +245,7 @@
     "version": "k",
     "speciality": "Infantry and naval",
     "uniqueUnit": "Berserk, Longboat",
-    "uniqueTech": "Berserkergang",
+    "uniqueTech": ["Berserkergang"],
     "teamBonus": "Docks are 25% cheaper",
     "bonus": [
       "Warships cost 20% less",

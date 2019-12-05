@@ -9,9 +9,9 @@ class CivilizationsModel(BaseModel):
     version: str
     speciality: str
     uniqueUnit: str
-    uniqueTech: str
 
     teamBonus: str
+    uniqueTech: typing.List[str]
     bonus: typing.List[str]
 
 
