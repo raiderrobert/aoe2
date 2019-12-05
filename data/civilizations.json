@@ -251,5 +251,163 @@
       "Infantry have +10% HP in Feudal Age, +15% in Castle Age, +20% in Imperial Age",
       "Wheelbarrow and Hand Cart are free"
     ]
+  },
+  {
+    "name": "Malay",
+    "version": "ror",
+    "speciality": "Infantry and naval",
+    "uniqueUnit": ["Karambit Warrior"],
+    "uniqueTech": ["Thalassocracy", "Forced Levy"],
+    "teamBonus": "Docks have double Line of Sight.",
+    "bonus": [
+      "Advancing in Age is +80% faster.",
+      "Fish Traps are 33% cheaper.",
+      "Fish Traps provide unlimited food.",
+      "Battle Elephants are 30% cheaper."
+    ]
+  },
+  {
+    "name": "Lithuanians",
+    "version": "d",
+    "speciality": "",
+    "uniqueUnit": ["Leitis"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Tatars",
+    "version": "d",
+    "speciality": "",
+    "uniqueUnit": ["Keshik"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Vietnamese",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": ["Rattan Archer"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Berbers",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Incas",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": ["Infantry"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Slavs",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Portuguese",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Malians",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Cumans",
+    "version": "d",
+    "speciality": "",
+    "uniqueUnit": ["Kipchak"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Khmer",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": ["Ballista Elephant"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Ethiopians",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Italians",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Indians",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Burmese",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": "Arambai"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Bulgarians",
+    "version": "d",
+    "speciality": "",
+    "uniqueUnit": ["Konnik"],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
+  },
+  {
+    "name": "Magyars",
+    "version": "",
+    "speciality": "",
+    "uniqueUnit": [],
+    "uniqueTech": [],
+    "teamBonus": "",
+    "bonus": []
   }
 ]
