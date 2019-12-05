@@ -123,8 +123,7 @@
     "teamBonus": "Galleys have +50% line of sight",
     "bonus": [
       "Fishing Ships have 2x HP and +2 pierce armor.",
-      "Fishing Ships work +5% faster in Dark Age, +10% in Feudal Age, ",
-      "+15% in Castle Age, +20% in Imperial Age.",
+      "Fishing Ships work +5% faster in Dark Age, +10% in Feudal Age, +15% in Castle Age, +20% in Imperial Age.",
       "Lumber Camps, Mining Camps, and Mills are 50% cheaper.",
       "Infantry attack 25% faster (starting in Feudal Age)."
     ]
@@ -249,8 +248,7 @@
     "teamBonus": "Docks are 25% cheaper",
     "bonus": [
       "Warships cost 20% less",
-      "Infantry have +10% HP in Feudal Age, +15% in Castle Age, ",
-      " +20% in Imperial Age",
+      "Infantry have +10% HP in Feudal Age, +15% in Castle Age, +20% in Imperial Age",
       "Wheelbarrow and Hand Cart are free"
     ]
   }
