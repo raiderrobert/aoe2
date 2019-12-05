@@ -7,12 +7,14 @@ import pathlib
 class CivilizationsModel(BaseModel):
     name: str
     version: str
-    speciality: str
-    uniqueUnit: str
 
-    teamBonus: str
+    speciality: str
+
+    uniqueUnit: typing.List[str]
     uniqueTech: typing.List[str]
+
     bonus: typing.List[str]
+    teamBonus: str
 
 
 def get_data(file_name) -> str:

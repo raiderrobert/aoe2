@@ -3,7 +3,7 @@
     "name": "Aztecs",
     "version": "c",
     "speciality": "Infantry and Monk",
-    "uniqueUnit": "Jaguar Warrior",
+    "uniqueUnit": ["Jaguar Warrior"],
     "uniqueTech": ["Garland Wars"],
     "teamBonus": "Relics generate +33% gold",
     "bonus": [
@@ -17,7 +17,7 @@
     "name": "Britons",
     "version": "k",
     "speciality": "Foot archer",
-    "uniqueUnit": "Longbowman",
+    "uniqueUnit": ["Longbowman"],
     "uniqueTech": ["Yeomen"],
     "teamBonus": "Archery Ranges work 20% faster",
     "bonus": [
@@ -30,7 +30,7 @@
     "name": "Byzantines",
     "version": "k",
     "speciality": "Defensive",
-    "uniqueUnit": "Cataphract",
+    "uniqueUnit": ["Cataphract"],
     "uniqueTech": ["Logistica"],
     "teamBonus": "Monks +50% heal speed",
     "bonus": [
@@ -45,7 +45,7 @@
     "name": "Celts",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": "Woad Raider",
+    "uniqueUnit": ["Woad Raider"],
     "uniqueTech": ["Furor Celtica"],
     "teamBonus": "Siege Workshops work 20% faster.",
     "bonus": [
@@ -59,7 +59,7 @@
     "name": "Chinese",
     "version": "k",
     "speciality": "Archer",
-    "uniqueUnit": "Chu Ko Nu",
+    "uniqueUnit": ["Chu Ko Nu"],
     "uniqueTech": ["Rocketry"],
     "teamBonus": "Farms provide +45 food.",
     "bonus": [
@@ -74,7 +74,7 @@
     "name": "Franks",
     "version": "k",
     "speciality": "Cavalry",
-    "uniqueUnit": "Throwing Axeman",
+    "uniqueUnit": ["Throwing Axeman"],
     "uniqueTech": ["Bearded Axe"],
     "teamBonus": "Knights have +2 line of sight",
     "bonus": [
@@ -87,7 +87,7 @@
     "name": "Goths",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": "Huskarl",
+    "uniqueUnit": ["Huskarl"],
     "uniqueTech": [
       "Anarchy",
       "Perfusion"
@@ -105,7 +105,7 @@
     "name": "Huns",
     "version": "c",
     "speciality": "Cavalry",
-    "uniqueUnit": "Tarkan",
+    "uniqueUnit": ["Tarkan"],
     "uniqueTech": ["Atheism"],
     "teamBonus": "Stables are 20% faster.",
     "bonus": [
@@ -118,7 +118,7 @@
     "name": "Japanese",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": "Samurai",
+    "uniqueUnit": ["Samurai"],
     "uniqueTech": ["Kataparuto"],
     "teamBonus": "Galleys have +50% line of sight",
     "bonus": [
@@ -132,7 +132,7 @@
     "name": "Koreans",
     "version": "c",
     "speciality": "Tower and naval",
-    "uniqueUnit": "War Wagon, Turtle Ship",
+    "uniqueUnit": ["War Wagon", "Turtle Ship"],
     "uniqueTech": ["Shinkichon"],
     "teamBonus": "Mangonel line has +1 range",
     "bonus": [
@@ -146,7 +146,7 @@
     "name": "Mayans",
     "version": "c",
     "speciality": "Archer",
-    "uniqueUnit": "Plumed Archer",
+    "uniqueUnit": ["Plumed Archer"],
     "uniqueTech": ["El Dorado"],
     "teamBonus": "Walls are 50% cheaper",
     "bonus": [
@@ -159,7 +159,7 @@
     "name": "Mongols",
     "version": "k",
     "speciality": "Cavalry Archer",
-    "uniqueUnit": "Mangudai",
+    "uniqueUnit": ["Mangudai"],
     "uniqueTech": ["Drill"],
     "teamBonus": "Scout line has +2 LOS",
     "bonus": [
@@ -172,7 +172,7 @@
     "name": "Persians",
     "version": "k",
     "speciality": "Cavalry",
-    "uniqueUnit": "War Elephant",
+    "uniqueUnit": ["War Elephant"],
     "uniqueTech": ["Mahouts"],
     "teamBonus": "Knights have +2 attack versus Archers",
     "bonus": [
@@ -185,7 +185,7 @@
     "name": "Saracens",
     "version": "k",
     "speciality": "Camel and naval",
-    "uniqueUnit": "Mameluke",
+    "uniqueUnit": ["Mameluke"],
     "uniqueTech": ["Zealotry"],
     "teamBonus": "Foot archers have +2 attack bonus against buildings",
     "bonus": [
@@ -199,7 +199,7 @@
     "name": "Spanish",
     "version": "c",
     "speciality": "Gunpowder and Monk",
-    "uniqueUnit": "Conquistador, Missionary",
+    "uniqueUnit": ["Conquistador", "Missionary"],
     "uniqueTech": ["Supremacy"],
     "teamBonus": "Trade units generate +33% Gold",
     "bonus": [
@@ -213,7 +213,7 @@
     "name": "Teutons",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": "Teutonic Knight",
+    "uniqueUnit": ["Teutonic Knight"],
     "uniqueTech": ["Crenellations"],
     "teamBonus": "Units are more resistant to conversion",
     "bonus": [
@@ -228,7 +228,7 @@
     "name": "Turks",
     "version": "k",
     "speciality": "Gunpowder",
-    "uniqueUnit": "Janissary",
+    "uniqueUnit": ["Janissary"],
     "uniqueTech": ["Artillery"],
     "teamBonus": "Gunpowder units are created 20% faster",
     "bonus": [
@@ -243,7 +243,7 @@
     "name": "Vikings",
     "version": "k",
     "speciality": "Infantry and naval",
-    "uniqueUnit": "Berserk, Longboat",
+    "uniqueUnit": ["Berserk", "Longboat"],
     "uniqueTech": ["Berserkergang"],
     "teamBonus": "Docks are 25% cheaper",
     "bonus": [
