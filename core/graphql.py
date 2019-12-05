@@ -1,5 +1,4 @@
 import graphene
-import string
 from graphene_pydantic import PydanticObjectType
 
 from typing import Union
@@ -16,7 +15,7 @@ class Query(graphene.ObjectType):
         Civilization,
         version=graphene.Argument(type=graphene.String, required=False),
         name=graphene.Argument(type=graphene.String, required=False),
-        specialityContains=graphene.Argument(type=graphene.String, required=False),
+        speciality_contains=graphene.Argument(type=graphene.String, required=False),
     )
 
     def resolve_civilizations(
@@ -24,15 +23,15 @@ class Query(graphene.ObjectType):
         info,
         version: Union[str, None] = None,
         name: Union[str, None] = None,
-        specialityContains: Union[str, None] = None,
+        speciality_contains: Union[str, None] = None,
     ):
         civs = get_civs()
         if version:
             civs = (x for x in civs if x.__getattribute__('ver') == version)
         if name:
             civs = (x for x in civs if x.__getattribute__('name') == name)
-        if specialityContains:
-            civs = (x for x in civs if specialityContains.lower() in (x.__getattribute__('speciality')).lower())
+        if speciality_contains:
+            civs = (x for x in civs if speciality_contains.lower() in x.speciality.lower())
         return civs
 
 
