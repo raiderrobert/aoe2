@@ -3,8 +3,12 @@
     "name": "Aztecs",
     "version": "c",
     "speciality": "Infantry and Monk",
-    "uniqueUnit": ["Jaguar Warrior"],
-    "uniqueTech": ["Garland Wars"],
+    "uniqueUnit": [
+      "Jaguar Warrior"
+    ],
+    "uniqueTech": [
+      "Garland Wars"
+    ],
     "teamBonus": "Relics generate +33% gold",
     "bonus": [
       "Villagers carry +5",
@@ -17,8 +21,12 @@
     "name": "Britons",
     "version": "k",
     "speciality": "Foot archer",
-    "uniqueUnit": ["Longbowman"],
-    "uniqueTech": ["Yeomen"],
+    "uniqueUnit": [
+      "Longbowman"
+    ],
+    "uniqueTech": [
+      "Yeomen"
+    ],
     "teamBonus": "Archery Ranges work 20% faster",
     "bonus": [
       "Town Centers cost -50% wood upon reaching the Castle Age",
@@ -30,8 +38,12 @@
     "name": "Byzantines",
     "version": "k",
     "speciality": "Defensive",
-    "uniqueUnit": ["Cataphract"],
-    "uniqueTech": ["Logistica"],
+    "uniqueUnit": [
+      "Cataphract"
+    ],
+    "uniqueTech": [
+      "Logistica"
+    ],
     "teamBonus": "Monks +50% heal speed",
     "bonus": [
       "Buildings (except gates) have +10% HP in Dark Age, +20% HP in Feudal Age +30% in Castle Age, +40% in Imperial Age.",
@@ -45,8 +57,12 @@
     "name": "Celts",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": ["Woad Raider"],
-    "uniqueTech": ["Furor Celtica"],
+    "uniqueUnit": [
+      "Woad Raider"
+    ],
+    "uniqueTech": [
+      "Furor Celtica"
+    ],
     "teamBonus": "Siege Workshops work 20% faster.",
     "bonus": [
       "Infantry move 15% faster.",
@@ -59,8 +75,12 @@
     "name": "Chinese",
     "version": "k",
     "speciality": "Archer",
-    "uniqueUnit": ["Chu Ko Nu"],
-    "uniqueTech": ["Rocketry"],
+    "uniqueUnit": [
+      "Chu Ko Nu"
+    ],
+    "uniqueTech": [
+      "Rocketry"
+    ],
     "teamBonus": "Farms provide +45 food.",
     "bonus": [
       "Start game with 3 extra villagers but -50 wood and -200 food.",
@@ -74,8 +94,12 @@
     "name": "Franks",
     "version": "k",
     "speciality": "Cavalry",
-    "uniqueUnit": ["Throwing Axeman"],
-    "uniqueTech": ["Bearded Axe"],
+    "uniqueUnit": [
+      "Throwing Axeman"
+    ],
+    "uniqueTech": [
+      "Bearded Axe"
+    ],
     "teamBonus": "Knights have +2 line of sight",
     "bonus": [
       "Castles are 25% cheaper.",
@@ -87,7 +111,9 @@
     "name": "Goths",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": ["Huskarl"],
+    "uniqueUnit": [
+      "Huskarl"
+    ],
     "uniqueTech": [
       "Anarchy",
       "Perfusion"
@@ -105,8 +131,12 @@
     "name": "Huns",
     "version": "c",
     "speciality": "Cavalry",
-    "uniqueUnit": ["Tarkan"],
-    "uniqueTech": ["Atheism"],
+    "uniqueUnit": [
+      "Tarkan"
+    ],
+    "uniqueTech": [
+      "Atheism"
+    ],
     "teamBonus": "Stables are 20% faster.",
     "bonus": [
       "Houses are not required to support population, start game with -100 Wood.",
@@ -118,8 +148,12 @@
     "name": "Japanese",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": ["Samurai"],
-    "uniqueTech": ["Kataparuto"],
+    "uniqueUnit": [
+      "Samurai"
+    ],
+    "uniqueTech": [
+      "Kataparuto"
+    ],
     "teamBonus": "Galleys have +50% line of sight",
     "bonus": [
       "Fishing Ships have 2x HP and +2 pierce armor.",
@@ -132,8 +166,13 @@
     "name": "Koreans",
     "version": "c",
     "speciality": "Tower and naval",
-    "uniqueUnit": ["War Wagon", "Turtle Ship"],
-    "uniqueTech": ["Shinkichon"],
+    "uniqueUnit": [
+      "War Wagon",
+      "Turtle Ship"
+    ],
+    "uniqueTech": [
+      "Shinkichon"
+    ],
     "teamBonus": "Mangonel line has +1 range",
     "bonus": [
       "Villagers have +3 line of sight.",
@@ -146,8 +185,12 @@
     "name": "Mayans",
     "version": "c",
     "speciality": "Archer",
-    "uniqueUnit": ["Plumed Archer"],
-    "uniqueTech": ["El Dorado"],
+    "uniqueUnit": [
+      "Plumed Archer"
+    ],
+    "uniqueTech": [
+      "El Dorado"
+    ],
     "teamBonus": "Walls are 50% cheaper",
     "bonus": [
       "Start game with 1 extra villager, -50 food.",
@@ -159,8 +202,12 @@
     "name": "Mongols",
     "version": "k",
     "speciality": "Cavalry Archer",
-    "uniqueUnit": ["Mangudai"],
-    "uniqueTech": ["Drill"],
+    "uniqueUnit": [
+      "Mangudai"
+    ],
+    "uniqueTech": [
+      "Drill"
+    ],
     "teamBonus": "Scout line has +2 LOS",
     "bonus": [
       "Cavalry Archers reload 20% faster.",
@@ -172,8 +219,12 @@
     "name": "Persians",
     "version": "k",
     "speciality": "Cavalry",
-    "uniqueUnit": ["War Elephant"],
-    "uniqueTech": ["Mahouts"],
+    "uniqueUnit": [
+      "War Elephant"
+    ],
+    "uniqueTech": [
+      "Mahouts"
+    ],
     "teamBonus": "Knights have +2 attack versus Archers",
     "bonus": [
       "Start game with +50 wood and food.",
@@ -185,8 +236,12 @@
     "name": "Saracens",
     "version": "k",
     "speciality": "Camel and naval",
-    "uniqueUnit": ["Mameluke"],
-    "uniqueTech": ["Zealotry"],
+    "uniqueUnit": [
+      "Mameluke"
+    ],
+    "uniqueTech": [
+      "Zealotry"
+    ],
     "teamBonus": "Foot archers have +2 attack bonus against buildings",
     "bonus": [
       "Market trade cost is only 5%",
@@ -199,8 +254,13 @@
     "name": "Spanish",
     "version": "c",
     "speciality": "Gunpowder and Monk",
-    "uniqueUnit": ["Conquistador", "Missionary"],
-    "uniqueTech": ["Supremacy"],
+    "uniqueUnit": [
+      "Conquistador",
+      "Missionary"
+    ],
+    "uniqueTech": [
+      "Supremacy"
+    ],
     "teamBonus": "Trade units generate +33% Gold",
     "bonus": [
       "Villagers construct buildings 30% faster.",
@@ -213,8 +273,12 @@
     "name": "Teutons",
     "version": "k",
     "speciality": "Infantry",
-    "uniqueUnit": ["Teutonic Knight"],
-    "uniqueTech": ["Crenellations"],
+    "uniqueUnit": [
+      "Teutonic Knight"
+    ],
+    "uniqueTech": [
+      "Crenellations"
+    ],
     "teamBonus": "Units are more resistant to conversion",
     "bonus": [
       "Monks have 2x healing range.",
@@ -228,8 +292,12 @@
     "name": "Turks",
     "version": "k",
     "speciality": "Gunpowder",
-    "uniqueUnit": ["Janissary"],
-    "uniqueTech": ["Artillery"],
+    "uniqueUnit": [
+      "Janissary"
+    ],
+    "uniqueTech": [
+      "Artillery"
+    ],
     "teamBonus": "Gunpowder units are created 20% faster",
     "bonus": [
       "Gunpowder Units have +25% HP",
@@ -243,8 +311,13 @@
     "name": "Vikings",
     "version": "k",
     "speciality": "Infantry and naval",
-    "uniqueUnit": ["Berserk", "Longboat"],
-    "uniqueTech": ["Berserkergang"],
+    "uniqueUnit": [
+      "Berserk",
+      "Longboat"
+    ],
+    "uniqueTech": [
+      "Berserkergang"
+    ],
     "teamBonus": "Docks are 25% cheaper",
     "bonus": [
       "Warships cost 20% less",
@@ -256,8 +329,13 @@
     "name": "Malay",
     "version": "ror",
     "speciality": "Infantry and naval",
-    "uniqueUnit": ["Karambit Warrior"],
-    "uniqueTech": ["Thalassocracy", "Forced Levy"],
+    "uniqueUnit": [
+      "Karambit Warrior"
+    ],
+    "uniqueTech": [
+      "Thalassocracy",
+      "Forced Levy"
+    ],
     "teamBonus": "Docks have double Line of Sight.",
     "bonus": [
       "Advancing in Age is +80% faster.",
@@ -269,72 +347,146 @@
   {
     "name": "Lithuanians",
     "version": "d",
-    "speciality": "",
-    "uniqueUnit": ["Leitis"],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "speciality": "cavalry and monks",
+    "uniqueUnit": [
+      "Leitis"
+    ],
+    "uniqueTech": [
+      "Hill Forts",
+      "Tower Shields"
+    ],
+    "teamBonus": "Monastery works 20% faster.",
+    "bonus": [
+      "Start with +150 food.",
+      "Spearman line and Skirmishers move 10% faster.",
+      "Cavalry get +1 attack for each Relic garrisoned in the Monastery, up to +5."
+    ]
   },
   {
     "name": "Tatars",
-    "version": "d",
-    "speciality": "",
-    "uniqueUnit": ["Keshik"],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "version": "lk",
+    "speciality": "Cavalry Archer",
+    "uniqueUnit": [
+      "Keshik"
+    ],
+    "uniqueTech": [
+      "Silk Armor",
+      "Timurid Siegecraft"
+    ],
+    "teamBonus": "Cavalry Archers +2 LOS.",
+    "bonus": [
+      "Herdables contain +50% food.",
+      "Units do +50% damage when attacking from higher elevations (instead of +25%).",
+      "Parthian Tactics are free."
+    ]
   },
   {
     "name": "Vietnamese",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": ["Rattan Archer"],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "version": "ror",
+    "speciality": "Archers",
+    "uniqueUnit": [
+      "Rattan Archer"
+    ],
+    "uniqueTech": [
+      "Chatras",
+      "Paper Money"
+    ],
+    "teamBonus": "Imperial Skirmishers are available at the Archery Range.",
+    "bonus": [
+      "Reveal enemy positions at game start.",
+      "Archery Range units have +20% HP.",
+      "Conscription is free."
+    ]
   },
   {
     "name": "Berbers",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "version": "ak",
+    "speciality": "navy and cavalry",
+    "uniqueUnit": [
+      "Camel Archer"
+    ],
+    "uniqueTech": [
+      "Kasbah",
+      "Maghrabi Camels"
+    ],
+    "teamBonus": "Genitours are available at the Archery Range.",
+    "bonus": [
+      "Villagers move +10% faster.",
+      "Stable units are 15%/20% cheaper in the Castle/Imperial Age",
+      "Ships move +10% faster."
+    ]
   },
   {
     "name": "Incas",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": ["Infantry"],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "version": "f",
+    "speciality": "Infantry",
+    "uniqueUnit": [
+      "Kamayuk",
+      "Slinger"
+    ],
+    "uniqueTech": [
+      "Andean Sling",
+      "Couriers"
+    ],
+    "teamBonus": "Farms are built 50% faster.",
+    "bonus": [
+      "Start the game with an Eagle Scout.",
+      "Start with a free Llama.",
+      "Villagers benefit from Blacksmith infantry upgrades.",
+      "Houses support 10 population.",
+      "Buildings cost -15% stone."
+    ]
   },
   {
     "name": "Slavs",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "version": "f",
+    "speciality": " infantry and siege weapons",
+    "uniqueUnit": [
+      "Boyar"
+    ],
+    "uniqueTech": [
+      "Orthodoxy",
+      "Druzhina"
+    ],
+    "teamBonus": "Military buildings (excluding Castles and Docks) provide +5 population.",
+    "bonus": [
+      "Farmers work 10% faster.",
+      "Tracking is free (in the HD expansions).",
+      "Supplies is free (in the Definitive Edition).",
+      "Siege Workshop units are 15% cheaper."
+    ]
   },
   {
     "name": "Portuguese",
-    "version": "",
-    "speciality": "",
-    "uniqueUnit": [],
-    "uniqueTech": [],
-    "teamBonus": "",
-    "bonus": []
+    "version": "ak",
+    "speciality": "navy and gunpowder units",
+    "uniqueUnit": [
+      "Organ Gun",
+      "Caravel"
+    ],
+    "uniqueBuilding": [
+      "Feitoria"
+    ],
+    "uniqueTech": [
+      "Carrack",
+      "Arquebus"
+    ],
+    "teamBonus": "Free Cartography from the beginning of the game.",
+    "bonus": [
+      "All units cost -15% gold.",
+      "All ships have +10% HP.",
+      "The Feitoria becomes available for building in the Imperial Age."
+    ]
   },
   {
     "name": "Malians",
     "version": "",
     "speciality": "",
     "uniqueUnit": [],
-    "uniqueTech": [],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -342,8 +494,13 @@
     "name": "Cumans",
     "version": "d",
     "speciality": "",
-    "uniqueUnit": ["Kipchak"],
-    "uniqueTech": [],
+    "uniqueUnit": [
+      "Kipchak"
+    ],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -351,8 +508,13 @@
     "name": "Khmer",
     "version": "",
     "speciality": "",
-    "uniqueUnit": ["Ballista Elephant"],
-    "uniqueTech": [],
+    "uniqueUnit": [
+      "Ballista Elephant"
+    ],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -361,7 +523,10 @@
     "version": "",
     "speciality": "",
     "uniqueUnit": [],
-    "uniqueTech": [],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -370,7 +535,10 @@
     "version": "",
     "speciality": "",
     "uniqueUnit": [],
-    "uniqueTech": [],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -379,7 +547,10 @@
     "version": "",
     "speciality": "",
     "uniqueUnit": [],
-    "uniqueTech": [],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -387,8 +558,13 @@
     "name": "Burmese",
     "version": "",
     "speciality": "",
-    "uniqueUnit": "Arambai"],
-    "uniqueTech": [],
+    "uniqueUnit": [
+      "Arambai"
+    ],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -396,8 +572,13 @@
     "name": "Bulgarians",
     "version": "d",
     "speciality": "",
-    "uniqueUnit": ["Konnik"],
-    "uniqueTech": [],
+    "uniqueUnit": [
+      "Konnik"
+    ],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   },
@@ -406,7 +587,10 @@
     "version": "",
     "speciality": "",
     "uniqueUnit": [],
-    "uniqueTech": [],
+    "uniqueTech": [
+      "",
+      ""
+    ],
     "teamBonus": "",
     "bonus": []
   }
