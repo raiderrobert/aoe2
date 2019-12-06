@@ -19,11 +19,13 @@ class Query(graphene.ObjectType):
     )
 
     def resolve_civilizations(
-        args,
+        self,
         info,
         version: Union[str, None] = None,
         name: Union[str, None] = None,
         speciality_contains: Union[str, None] = None,
+        *args,
+        **kwargs
     ):
         civs = get_civs()
         if version:
