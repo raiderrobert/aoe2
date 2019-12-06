@@ -12,6 +12,7 @@ class CivilizationsModel(BaseModel):
 
     uniqueUnit: typing.List[str]
     uniqueTech: typing.List[str]
+    uniqueBuilding: typing.Optional[typing.List[str]]
 
     bonus: typing.List[str]
     teamBonus: str
