@@ -8,7 +8,7 @@ civ_data = {}
 unit_data = {}
 
 
-def get_data(file_name) -> str:
+def get_data(file_name: str) -> str:
     file = pathlib.Path(__file__).resolve().parent.parent.joinpath(f"data/{file_name}")
     with open(file, "r") as reader:
         return reader.read()
